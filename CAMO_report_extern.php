@@ -45,7 +45,7 @@
     date_default_timezone_set ( "UTC");
     $a = new VereinsfliegerRestInterface();
     
-    $result = $a->SignIn($configuration['vereinsflieger']['login_name'],$configuration['vereinsflieger']['passwort'],0);
+    $result = $a->SignIn($configuration['vereinsflieger']['login_name'],$configuration['vereinsflieger']['passwort'],0,$configuration['vereinsflieger']['appkey']);
 
     if ($result) {
         if ($mode=="lastmonth")

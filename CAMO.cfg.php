@@ -8,6 +8,7 @@
 [vereinsflieger]
 login_name = "mail@adres.se"
 passwort = "geheim"
+appkey = "8973498723498723ab66889798"
 
 ;
 ; Liste der Flugzeuge, die in den CAMO Report einbezogen werden sollen. Liste von Kennzeichen mit Kommata getrennt
